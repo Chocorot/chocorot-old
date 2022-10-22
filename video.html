@@ -16,17 +16,19 @@
         </style>
        
     </head>
-    <body>
-        <video autoplay id="center" width="640">
-            <source src="video.mp4" type="video/mp4">
-            Your browser does not support HTML video.
-        </video>
-        <script>
-            var video = document.getElementById("center");
-            window.onload= playVideo;
-            function playVideo() {
-                video.play();
-            }
-        </script>
-    </body> 
+    <a onclick="playVideo();">
+        <body>
+            <video id="center" width="640">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+            </video>
+            <script>
+                var video = document.getElementById("center");
+                window.onload= playVideo;
+                function playVideo() {
+                    video.play();
+                }
+            </script>
+        </body>
+    </a>
 </html>
