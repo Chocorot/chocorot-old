@@ -16,19 +16,20 @@
         </style>
        
     </head>
-    <a onclick="playVideo();">
-        <body>
+    
+    <body>
+        <a onclick="playVideo();"></a>
             <video id="center" width="640">
                 <source src="video.mp4" type="video/mp4">
                 Your browser does not support HTML video.
             </video>
-            <script>
-                var video = document.getElementById("center");
-                window.onload= playVideo;
-                function playVideo() {
-                    video.play();
-                }
-            </script>
-        </body>
-    </a>
+        </a>
+        <script>
+            var video = document.getElementById("center");
+            window.onload= playVideo;
+            function playVideo() {
+                video.play();
+            }
+        </script>
+    </body>
 </html>
