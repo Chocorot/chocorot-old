@@ -1,4 +1,2 @@
 # chocorot-old
-hjhjksfhjksefkhjsefhbj
-awjkbdajkwAEFbjksdfbjkefbjkef
-awfhbkjkbafkbjeaf
+Chocorot's old website
