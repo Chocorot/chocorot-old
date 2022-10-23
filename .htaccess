@@ -1,4 +1,4 @@
-Redirect /cal /height_calculator
+Redirect 301 /cal /http://old.chocorot.net/height_calculator
 Redirect /calc /height_calculator
 Redirect /calculator /height_calculator
 Redirect /hcalc /height_calculator
