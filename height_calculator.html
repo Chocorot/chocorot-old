@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title>Height Calculator</title>
+        <link href="res/favicon.ico" rel="icon" type="image/x-icon" />
+        <style>
+
+            .header {
+              margin: 0;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-49%, -230%);
+            }
+
+            .lable {
+              margin: 0;
+              position: absolute;
+              top:50%;
+              left: 50%;
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-65%, -240%);
+            }
+
+            .button{
+              margin: 0;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -ms-transform: translate(-60%, -50%);
+              transform: translate(-170%, -210%);
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        <div class="header">
+            <h1>Height Calculator</h1>
+        </div>
+        <div class="lable">
+            <div>
+                <lable alt="in cm">Your Height: </lable>
+                <input pattern="[1-9]" type="number" id="number" min="10" max="210" oninput="javascript: if (this.value > 210) this.value = 210;" alt="in cm">
+                <label>    cm</label><br><br>
+            </div>
+        </div>
+        <div class="button">
+            <button  onclick="myfunction()">Calculate</button>
+        </div>
+        
+        <script>
+            function myfunction () {
+                if (document.getElementById("number").value == "") {
+                    alert('Please Enter your Height')
+                }else{
+                    if (document.getElementById("number").value < 10){
+                        document.getElementById("number").value = 10
+                    }
+                    alert('Your Height is: ' + document.getElementById("number").value + "cm")
+                }
+                
+            }
+        </script>
+    </body>
+ </html>
