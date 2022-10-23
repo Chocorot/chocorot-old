@@ -1,0 +1,5 @@
+Redirect /cal /height_calculator
+Redirect /calc /height_calculator
+Redirect /calculator /height_calculator
+Redirect /hcalc /height_calculator
+Redirect /hcal /height_calculator
