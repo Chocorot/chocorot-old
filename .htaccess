@@ -1,9 +1,0 @@
-Redirect 301 /cal /http://old.chocorot.net/height_calculator
-Redirect /calc /height_calculator
-Redirect /calculator /height_calculator
-Redirect /hcalc /height_calculator
-Redirect /hcal /height_calculator
-
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^old\.chocorot\.net [NC]
-RewriteRule ^(.*)$ https://chocorot.net/$1 [L,R=301]
